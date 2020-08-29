@@ -8,23 +8,13 @@
 
 import Foundation
 
-// //MARK: - Leagues
-//
-//struct Leagues: Decodable {
-//    let leagues: [League]?
-//}
-//
-//// MARK: - League
-//
-//class League: Decodable, Identifiable {
-//    let idLeague,strSport: String?
-//    var strLeague, strLeagueAlternate: String?
-//    let strCountry, strDescriptionEN : String?
-//    let strLogo: String?
-//}
+//MARK: - Leagues
+
 struct League : Codable {
     let leagues : [Leagues]
 }
+
+//MARK: - League
 
 class Leagues : Codable , Identifiable {
     var idLeague : String?

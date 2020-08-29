@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LeagueView.swift
 //  LeaguesSwiftUI
 //
 //  Created by Mahmoud Abdelshafi on 8/29/20.
@@ -8,17 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
- 
+struct LeagueView: View {
     var body: some View {
-       NavigationView{
-        LeaugesView()
-       }
+        Image("")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LeagueView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LeagueView()
     }
 }

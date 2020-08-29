@@ -16,12 +16,13 @@ struct CellView : View {
         HStack(alignment: .firstTextBaseline){
             VStack(alignment: .leading){
                 Text(self.leauges.strLeague ?? "").font(.headline)
+                Spacer()
                 Text(self.leauges.strLeagueAlternate ?? "").foregroundColor(Color.gray)
+                 Spacer()
             }
-            .padding(.horizontal)
+             Spacer()
             Text(self.leauges.strSport ?? "").foregroundColor(Color.green)
         }
-        .padding(.top)
     }
 }
 
